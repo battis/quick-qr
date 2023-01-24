@@ -1,0 +1,19 @@
+{
+    "name": "battis/quick-qr",
+    "description": "Quickly generate a non-proprietary QR code",
+    "require": {
+        "bacon/bacon-qr-code": "^2.0"
+    },
+    "license": "BSD-2-Clause",
+    "autoload": {
+        "psr-4": {
+            "Battis\\QuickQr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Seth Battis",
+            "email": "seth@battis.net"
+        }
+    ]
+}
